@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Logicalis AI Snapshot prepared by Ideas Collide.">
+<title>Logicalis AI Snapshot | Ideas Collide</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+:root{
+  --navy:#081938;--cyan:#08a8d1;--coral:#ef403b;--cream:#efede5;--paper:#faf9f5;
+  --white:#fff;--ink:#0e1b34;--muted:#5f6b7b;--line:#d8d6cf;
+  --green:#267657;--amber:#a66d12;
+  --display:"Arial Narrow","Avenir Next Condensed","Franklin Gothic Condensed",Arial,sans-serif;
+  --body:"Avenir Next",Avenir,"Segoe UI",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;--max:1100px
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,p{margin:0}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 64px));margin:auto}
+.eyebrow{font-family:var(--display);font-size:12px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.progress{position:fixed;inset:0 0 auto;height:4px;z-index:99}.progress i{height:100%;width:0;display:block;background:var(--coral)}
+.print{position:fixed;right:18px;bottom:18px;z-index:50;border:0;background:var(--navy);color:#fff;padding:10px 13px;font-weight:800;cursor:pointer;box-shadow:0 8px 25px #08193833}
+
+/* HERO */
+.cover{min-height:690px;background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.cover:after{content:"";position:absolute;inset:auto 0 0;height:8px;background:repeating-linear-gradient(135deg,var(--cyan) 0 4px,transparent 4px 8px)}
+.cover .wrap{min-height:690px;padding:38px 0 34px;display:flex;flex-direction:column;position:relative;z-index:2}
+.brand-lockup{height:34px;display:flex;align-items:center}
+.brand-logo{display:block;width:210px;max-height:34px;object-fit:contain;object-position:left center;filter:brightness(0) invert(1)}
+.brand-fallback{display:none;align-items:center;gap:7px;font-family:var(--display);font-weight:900;font-size:20px}
+.atom-mini{width:20px;height:20px;position:relative;display:inline-block}
+.atom-mini:before,.atom-mini:after{content:"";position:absolute;inset:4px -1px;border:1.4px solid #fff;border-radius:50%;transform:rotate(45deg)}
+.atom-mini:after{transform:rotate(-45deg)}.atom-mini i{position:absolute;width:5px;height:5px;background:var(--coral);border-radius:50%;left:7px;top:7px}
+.cover-main{margin:auto 0;display:grid;grid-template-columns:1.15fr .85fr;gap:58px;align-items:center}
+.cover .kicker{color:var(--cyan);margin-bottom:18px}
+.cover h1{font-family:var(--serif);font-size:clamp(44px,5.1vw,66px);line-height:1.01;max-width:10.5em;letter-spacing:-.02em}
+.cover h1 span{color:var(--cyan)}
+.cover-copy{font-size:18px;color:#c8d2e1;max-width:650px;margin-top:22px;line-height:1.55}.cover-copy strong{color:#fff}
+.orbit-art{height:390px;position:relative}.orbit-line{position:absolute;border:1px solid;opacity:.62;border-radius:50%}
+.orbit-line.a{width:430px;height:180px;left:-10px;top:84px;border-color:#1c90af;transform:rotate(15deg)}
+.orbit-line.b{width:470px;height:188px;left:-45px;top:110px;border-color:#a93543;transform:rotate(-38deg)}
+.orbit-line.c{width:200px;height:480px;left:150px;top:-42px;border-color:#1c7897;transform:rotate(-10deg)}
+.orbit-dot{position:absolute;border-radius:50%}.orbit-dot.one{width:20px;height:20px;background:var(--coral);right:30px;top:108px}
+.orbit-dot.two{width:15px;height:15px;background:#49bdca;left:25px;top:218px}.orbit-dot.three{width:9px;height:9px;background:#fff;right:110px;bottom:60px;opacity:.8}
+.cover-meta{display:grid;grid-template-columns:.8fr 1.35fr 1.55fr;gap:30px;border-top:1px solid #ffffff35;padding-top:17px}
+.cover-meta b{display:block;color:var(--cyan);font-family:var(--display);font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.cover-meta span{display:block;margin-top:5px;font-size:13px;color:#f5f7fa}.method-link{display:inline-block;margin-top:6px;font-size:11px;color:#b9c7d8;text-decoration:underline;text-underline-offset:3px}
+
+/* WHY */
+.why-band{background:var(--cyan);color:var(--navy);padding:22px 0}.why-band .wrap{display:grid;grid-template-columns:230px 1fr;gap:34px;align-items:start}
+.why-band .eyebrow{font-size:13px}.why-band p{font-size:17px;line-height:1.5;max-width:760px}.why-band p strong{font-weight:800}
+
+/* REPORT */
+.report{width:min(var(--max),calc(100% - 64px));margin:auto}.report-section{display:grid;grid-template-columns:155px 1fr;gap:48px;padding:76px 0;border-bottom:1px solid var(--line)}
+.section-index{padding-top:5px}.section-index .num{display:block;font-family:var(--display);font-size:40px;line-height:1;font-weight:900;color:var(--coral)}
+.section-index .label{display:block;margin-top:10px;font-family:var(--display);font-size:10px;font-weight:900;line-height:1.35;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+.section-index:after{content:"";display:block;width:40px;height:5px;background:var(--cyan);margin-top:15px}
+.section-body h2{font-family:var(--serif);font-size:39px;line-height:1.08;letter-spacing:-.01em;max-width:850px}.section-body h2 span{color:var(--coral)}
+.section-intro{font-size:16px;color:var(--muted);max-width:790px;margin-top:13px}.section-intro strong{color:var(--ink)}
+.insight{margin-top:25px;border-left:6px solid var(--cyan);background:var(--cream);padding:20px 23px;font-size:17px;line-height:1.52}
+.insight strong{color:var(--coral);font-family:var(--serif);font-size:20px}
+
+/* EXEC */
+.executive{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--ink);margin-top:30px}
+.exec-item{padding:23px 21px 22px 0;border-right:1px solid var(--line);margin-right:21px}.exec-item:last-child{border-right:0;margin-right:0}
+.exec-item b{font-family:var(--display);font-size:45px;line-height:1;color:var(--coral)}.exec-item h3{font-family:var(--serif);font-size:20px;line-height:1.18;margin-top:16px}
+.exec-item p{font-size:13px;color:var(--muted);margin-top:9px}
+
+/* KPI + BRANDS */
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);margin-top:30px;border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.kpi{min-height:145px;padding:25px 24px 22px;background:#f4f2ec;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}
+.kpi:first-child{background:var(--coral);color:#fff;border-right:0}.kpi:last-child{border-right:0}
+.kpi b{display:block;font-family:var(--display);font-size:42px;line-height:1}.kpi span{display:block;font-size:13px;color:var(--muted);margin-top:15px}.kpi:first-child span{color:#fff}
+.brand-table{margin-top:34px;border-top:2px solid var(--ink)}.brand-head,.brand-row{display:grid;grid-template-columns:45px 2fr 1.4fr .7fr .72fr .72fr;gap:14px;align-items:center}
+.brand-head{padding:10px 0 9px;font-size:11px;font-weight:800;color:var(--muted);text-transform:uppercase}.brand-row{padding:14px 10px 14px 0;border-top:1px solid var(--line);font-size:14px}
+.brand-row.me{background:#fde3df;border-left:5px solid var(--coral);padding-left:12px;font-weight:800}.brand-track{height:14px;background:#d9d8d2;overflow:hidden}.brand-fill{height:100%;background:#6b7b8e}.brand-row.me .brand-fill{background:var(--coral)}
+.brand-pos,.brand-score,.brand-sent,.brand-avg{font-family:var(--display);font-weight:800}
+
+/* MODEL */
+.model-list{border-top:2px solid var(--ink);margin-top:30px}.model-row{display:grid;grid-template-columns:205px 1fr;gap:22px;padding:21px 0;border-bottom:1px solid var(--line);align-items:center}
+.model-name{font-family:var(--serif);font-weight:700;font-size:19px}.placements{display:flex;gap:7px;flex-wrap:wrap}.place{padding:9px 11px;background:#e8e6e0;font-size:12px}.place.me{background:var(--coral);color:#fff;font-weight:800}
+
+/* PROMPTS */
+.prompt-list{margin-top:30px;border-top:2px solid var(--ink)}.prompt-row{display:grid;grid-template-columns:1.45fr 160px .9fr;gap:20px;align-items:center;padding:17px 0;border-bottom:1px solid var(--line)}
+.prompt-row h3{font-size:15px}.prompt-dots{display:flex;gap:8px}.prompt-dot{width:24px;height:24px;background:#d7d6cf}.prompt-dot.hit{background:var(--coral)}
+.prompt-note{font-size:13px;color:var(--muted)}.prompt-note.zero{color:var(--coral);font-weight:800}.navy-callout{background:var(--navy);color:#fff;margin-top:26px;padding:26px 28px;border-left:6px solid var(--cyan)}
+.navy-callout .eyebrow{color:var(--cyan)}.navy-callout h3{font-family:var(--serif);font-size:27px;line-height:1.18;margin-top:10px}.navy-callout p{font-size:14px;color:#c7d2e0;margin-top:11px}
+
+/* CITATION GAP */
+.gap-filter{margin-top:25px;background:var(--cream);border-left:6px solid var(--cyan);padding:17px 20px;font-size:13px;color:var(--muted)}.gap-filter strong{color:var(--ink)}
+.citation-table{margin-top:25px;border-top:2px solid var(--ink)}
+.citation-head,.citation-row{display:grid;grid-template-columns:1.45fr .75fr .62fr .62fr;gap:18px;align-items:center}
+.citation-head{padding:10px 0 9px;font-size:10px;font-weight:900;color:var(--muted);text-transform:uppercase}
+.citation-row{padding:13px 0;border-top:1px solid var(--line);font-size:13px}
+.citation-row .domain{font-weight:800}
+.site-tag{display:inline-flex;align-items:center;justify-content:center;width:max-content;padding:4px 8px;border-radius:4px;font-size:10px;font-weight:800;line-height:1;text-transform:capitalize}
+.site-tag.corporate{background:#ffe3d5;color:#d75a17}.site-tag.reference{background:#eadcff;color:#8744d8}.site-tag.competitor{background:#ffd9df;color:#df3046}.site-tag.editorial{background:#dce9ff;color:#2768c7}.site-tag.institutional{background:#e5f0d7;color:#59851b}
+.citation-row .retrieved,.citation-row .citations{font-family:var(--display);font-size:16px;font-weight:900}.citation-row:first-of-type .retrieved,.citation-row:first-of-type .citations{color:var(--coral)}
+.citation-note{margin-top:16px;font-size:12px;color:var(--muted);line-height:1.5}
+
+/* TECH */
+.tech-note{font-size:12px;color:var(--muted);margin-top:15px}.tech-scorecard{margin-top:30px;border-top:2px solid var(--ink)}
+.tech-item{display:grid;grid-template-columns:165px 95px 1fr;gap:16px;align-items:center;padding:15px 0;border-bottom:1px solid var(--line)}
+.tech-item h3{font-size:14px}.tech-status{display:flex;align-items:center;justify-content:center;min-height:34px;font-family:var(--display);font-size:11px;font-weight:900;letter-spacing:.07em;color:#fff}
+.tech-status.pass{background:var(--green)}.tech-status.partial{background:#c78818}.tech-status.fail{background:var(--coral)}
+.tech-result{display:grid;grid-template-columns:170px 1fr;gap:15px;align-items:center}.tech-track{height:18px;background:#dddcd6;overflow:hidden}.tech-fill{height:100%}
+.tech-fill.pass{background:var(--green)}.tech-fill.partial{background:#d59a2a}.tech-fill.fail{background:var(--coral)}.tech-copy{font-size:12px;color:var(--muted)}
+.tech-scorecard .tech-item:nth-child(1) .tech-fill,.tech-scorecard .tech-item:nth-child(2) .tech-fill{width:100%}.tech-scorecard .tech-item:nth-child(3) .tech-fill{width:68%}.tech-scorecard .tech-item:nth-child(4) .tech-fill{width:55%}.tech-scorecard .tech-item:nth-child(5) .tech-fill{width:28%}
+.transition-box{margin-top:28px;border-left:6px solid var(--cyan);background:var(--cream);padding:21px 23px}.transition-box h3{font-family:var(--serif);font-size:22px}.transition-box p{font-size:14px;color:var(--muted);margin-top:8px}
+
+/* QUICK WINS */
+.quick-win-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}.quick-win{padding:27px 27px 25px;min-height:260px}
+.quick-win.earned{background:var(--navy);color:#fff;border-top:7px solid var(--cyan)}.quick-win.owned{background:#fde3df;border-top:7px solid var(--coral)}
+.quick-win .eyebrow{color:var(--cyan)}.quick-win.owned .eyebrow{color:var(--coral)}.quick-win h3{font-family:var(--serif);font-size:26px;line-height:1.16;margin-top:11px}
+.quick-win p{font-size:14px;line-height:1.55;margin-top:13px;color:#c8d2df}.quick-win.owned p{color:#5d5960}.quick-win strong{color:#fff}.quick-win.owned strong{color:var(--ink)}
+.quick-win-note{margin-top:22px;border-left:6px solid var(--cyan);background:var(--cream);padding:19px 22px;font-size:14px;color:var(--muted)}.quick-win-note strong{font-family:var(--serif);font-size:20px;color:var(--coral)}
+
+/* AUDIT */
+.audit-box{margin-top:30px;display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line)}.audit-col{padding:29px}.audit-col:first-child{background:var(--cream)}.audit-col:last-child{background:var(--navy);color:#fff}
+.audit-col .eyebrow{color:var(--coral)}.audit-col:last-child .eyebrow{color:var(--cyan)}.audit-col h3{font-family:var(--serif);font-size:25px;line-height:1.15;margin-top:10px}
+.audit-col ul{list-style:none;padding:0;margin:20px 0 0}.audit-col li{display:grid;grid-template-columns:25px 1fr;gap:10px;padding:11px 0;border-top:1px solid #cecac0;font-size:13px}.audit-col:last-child li{border-color:#ffffff28}
+.audit-bottom{margin-top:24px;padding:18px 20px;border-top:2px solid var(--ink);font-size:14px}.audit-bottom strong{color:var(--coral)}
+
+/* STRATEGY */
+.strategy-bridge{display:grid;grid-template-columns:1fr 58px 1fr 58px 1fr;gap:0;margin-top:30px;align-items:stretch}
+.strategy-stage{min-height:175px;padding:24px 22px;background:var(--cream);border-top:5px solid var(--cyan)}.strategy-stage.strategy{background:var(--navy);color:#fff;border-top-color:var(--coral)}
+.strategy-stage .eyebrow{color:var(--muted)}.strategy-stage.strategy .eyebrow{color:var(--cyan)}.strategy-stage h3{font-family:var(--serif);font-size:23px;line-height:1.15;margin-top:10px}
+.strategy-stage p{font-size:13px;color:var(--muted);margin-top:10px}.strategy-stage.strategy p{color:#c8d2df}.strategy-arrow{display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:32px;font-weight:900;color:var(--coral)}
+.strategy-callout{margin-top:24px;border-left:6px solid var(--cyan);background:var(--cream);padding:20px 23px;font-size:14px;color:var(--muted)}.strategy-callout strong{font-family:var(--serif);font-size:20px;color:var(--coral)}
+
+/* CTA */
+.cta{background:var(--navy);color:#fff;padding:65px 0;border-top:9px solid var(--cyan)}.cta .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:end}
+.cta h2{font-family:var(--serif);font-size:44px;line-height:1.05}.cta h2 span{color:var(--cyan)}.cta p{font-size:15px;color:#c5d0df}
+.buttons{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-block;text-decoration:none;background:var(--coral);color:#fff;padding:12px 16px;font-family:var(--display);font-size:12px;font-weight:900;text-transform:uppercase}.btn.alt{background:transparent;border:1px solid #ffffff8c}
+.methodology{background:var(--cream);padding:28px 0 30px;border-top:1px solid #d4d0c7}.methodology .wrap{display:grid;grid-template-columns:160px 1fr;gap:35px}
+.methodology h2{font-family:var(--display);font-size:12px;text-transform:uppercase;letter-spacing:.12em}.methodology p{font-size:11px;color:var(--muted);line-height:1.6}.methodology p+p{margin-top:7px}
+.footer{background:#061127;color:#8191a7;font-size:10px;padding:18px 0}.footer .wrap{display:flex;justify-content:space-between;gap:25px}
+.reveal{opacity:0;transform:translateY(15px);transition:.5s ease}.reveal.in{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .wrap,.report{width:min(100% - 36px,var(--max))}.cover-main{grid-template-columns:1fr}.orbit-art{display:none}.cover h1{font-size:50px}.cover-meta{grid-template-columns:1fr}
+  .why-band .wrap{grid-template-columns:1fr;gap:8px}.report-section{grid-template-columns:1fr;gap:14px;padding:58px 0}.section-index{display:flex;gap:10px;align-items:baseline}.section-index .num{font-size:25px}.section-index .label{margin:0}.section-index:after{display:none}
+  .executive,.kpis{grid-template-columns:1fr 1fr}.model-row,.cta .wrap,.methodology .wrap{grid-template-columns:1fr}.quick-win-grid,.audit-box{grid-template-columns:1fr}.strategy-bridge{grid-template-columns:1fr}.strategy-arrow{min-height:45px;transform:rotate(90deg)}
+}
+@media(max-width:640px){
+  .cover h1{font-size:42px}.section-body h2{font-size:32px}.executive,.kpis{grid-template-columns:1fr}.brand-head{display:none}.brand-row{grid-template-columns:28px 1fr 90px}.brand-sent,.brand-avg{display:none}
+  .prompt-row,.tech-item,.tech-result{grid-template-columns:1fr}.citation-head,.citation-row{grid-template-columns:1.3fr .8fr .62fr .62fr;gap:8px}.site-tag{font-size:9px;padding:4px 6px}
+}
+@media print{.progress,.print{display:none}.reveal{opacity:1;transform:none}.cover,.why-band,.cta,.footer,.navy-callout,.quick-win.earned,.audit-col:last-child,.strategy-stage.strategy{-webkit-print-color-adjust:exact;print-color-adjust:exact}.report-section{padding:45px 0}}
+</style>
+</head>
+<body id="top">
+<div class="progress"><i id="progress"></i></div>
+<button class="print" onclick="window.print()">Print / save PDF</button>
+
+<header class="cover">
+<div class="wrap">
+  <div class="brand-lockup">
+    <img class="brand-logo" src="/assets/ic-logo-horizontal.svg" alt="Ideas Collide" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="brand-fallback">IDEAS <span class="atom-mini"><i></i></span> COLLIDE</div>
+  </div>
+  <div class="cover-main">
+    <div class="reveal">
+      <div class="eyebrow kicker">AI visibility snapshot · September 2026</div>
+      <h1>Wondering how often AI is talking about Logicalis? <span>We took a look.</span></h1>
+      <p class="cover-copy">We looked at questions your customers might ask their AI assistants across Google AI Overviews, ChatGPT and Perplexity to see how often Logicalis appears, how you compare to competitors, and where there may be opportunities to improve visibility. This <strong>AI Snapshot</strong> is an initial look at where things stand today — and what we’d explore further in a full GEO audit.</p>
+    </div>
+    <div class="orbit-art reveal" aria-hidden="true"><div class="orbit-line a"></div><div class="orbit-line b"></div><div class="orbit-line c"></div><i class="orbit-dot one"></i><i class="orbit-dot two"></i><i class="orbit-dot three"></i></div>
+  </div>
+  <div class="cover-meta reveal">
+    <div><b>Prepared for</b><span>Logicalis</span></div>
+    <div><b>Engines sampled</b><span>Google AI Overview · ChatGPT · Perplexity</span></div>
+    <div><b>Directional sample</b><span>25 prompts · 5 topics · two-page technical review</span><a class="method-link" href="#methodology">See more about report methodology ↓</a></div>
+  </div>
+</div>
+</header>
+
+<section class="why-band"><div class="wrap"><div class="eyebrow">Why AI visibility matters</div><p>AI is becoming part of the buying journey <strong>before a prospect ever reaches a website.</strong> When buyers ask for providers, compare capabilities or validate a shortlist, the brands that surface consistently get more chances to be considered.</p></div></section>
+
+<main class="report">
+
+<section class="report-section">
+<aside class="section-index"><span class="num">01</span><span class="label">Where Logicalis stands</span></aside>
+<div class="section-body">
+  <h2 class="reveal">Where Logicalis stands in <span>AI visibility today.</span></h2>
+  <p class="section-intro reveal">The Snapshot shows a brand that is already part of the conversation, with a few clear places where stronger signals could turn occasional visibility into more consistent consideration.</p>
+  <div class="executive reveal">
+    <article class="exec-item"><b>#4</b><h3>Logicalis is already in the competitive set.</h3><p>Across the brands tracked, Logicalis ranks fourth overall in AI visibility.</p></article>
+    <article class="exec-item"><b>0/10</b><h3>Cloud and cybersecurity offer the clearest room to grow.</h3><p>Those two topics returned no Logicalis visibility across ten sampled prompts.</p></article>
+    <article class="exec-item"><b>336</b><h3>The opportunity extends beyond owned content.</h3><p>336 domains mention competitors without also mentioning Logicalis.</p></article>
+  </div>
+  <div class="insight reveal"><strong>The takeaway:</strong> Logicalis is already appearing in AI answers. The opportunity is to make that visibility more consistent across topics, engines and the sources AI relies on.</div>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">02</span><span class="label">Top brands in AI visibility</span></aside>
+<div class="section-body">
+  <h2 class="reveal">Compared to competitors, <span>Logicalis is in the middle of the pack.</span></h2>
+  <p class="section-intro reveal">NTT DATA leads this AI Snapshot. Logicalis isn’t at the bottom, but it isn’t leading the pack either. That gives us a useful starting point for understanding what may help the brand show up more often and in stronger positions.</p>
+  <div class="kpis reveal"><div class="kpi"><b>1.0%</b><span>Logicalis visibility</span></div><div class="kpi"><b>59/100</b><span>sentiment when mentioned</span></div><div class="kpi"><b>#7.0</b><span>average position</span></div><div class="kpi"><b>3.3%</b><span>share of voice</span></div></div>
+  <div class="brand-table reveal">
+    <div class="brand-head"><span>#</span><span>Brand</span><span>Visibility</span><span>Visibility</span><span>Sentiment</span><span>Position</span></div>
+    <div class="brand-row"><span class="brand-pos">1</span><span>NTT DATA</span><div class="brand-track"><div class="brand-fill" style="width:100%"></div></div><span class="brand-score">12%</span><span class="brand-sent">62</span><span class="brand-avg">#4.1</span></div>
+    <div class="brand-row"><span class="brand-pos">2</span><span>CDW</span><div class="brand-track"><div class="brand-fill" style="width:17%"></div></div><span class="brand-score">2%</span><span class="brand-sent">64</span><span class="brand-avg">#3.7</span></div>
+    <div class="brand-row"><span class="brand-pos">3</span><span>World Wide Technology</span><div class="brand-track"><div class="brand-fill" style="width:8%"></div></div><span class="brand-score">1%</span><span class="brand-sent">56</span><span class="brand-avg">#6.4</span></div>
+    <div class="brand-row me"><span class="brand-pos">4</span><span>Logicalis (you)</span><div class="brand-track"><div class="brand-fill" style="width:8%"></div></div><span class="brand-score">1%</span><span class="brand-sent">59</span><span class="brand-avg">#7.0</span></div>
+    <div class="brand-row"><span class="brand-pos">5</span><span>Insight</span><div class="brand-track"><div class="brand-fill" style="width:8%"></div></div><span class="brand-score">1%</span><span class="brand-sent">60</span><span class="brand-avg">#6.2</span></div>
+    <div class="brand-row"><span class="brand-pos">6</span><span>Presidio</span><div class="brand-track"><div class="brand-fill" style="width:8%"></div></div><span class="brand-score">1%</span><span class="brand-sent">58</span><span class="brand-avg">#2.2</span></div>
+  </div>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">03</span><span class="label">Ranking by AI model</span></aside>
+<div class="section-body">
+  <h2 class="reveal">Logicalis ranks <span>#3–#4 across the three AI experiences tracked.</span></h2>
+  <p class="section-intro reveal">The ranking is fairly consistent across engines, with Perplexity giving Logicalis the strongest placement. That difference gives us something specific to investigate in a full audit.</p>
+  <div class="model-list reveal">
+    <div class="model-row"><div class="model-name">Google AI Overview</div><div class="placements"><span class="place">1. NTT DATA</span><span class="place">2. CDW</span><span class="place">3. Insight</span><span class="place me">4. Logicalis</span><span class="place">5. World Wide Tech</span></div></div>
+    <div class="model-row"><div class="model-name">ChatGPT</div><div class="placements"><span class="place">1. NTT DATA</span><span class="place">2. CDW</span><span class="place">3. World Wide Tech</span><span class="place me">4. Logicalis</span><span class="place">5. Presidio</span></div></div>
+    <div class="model-row"><div class="model-name">Perplexity</div><div class="placements"><span class="place">1. NTT DATA</span><span class="place">2. CDW</span><span class="place me">3. Logicalis</span><span class="place">4. Insight</span><span class="place">5. Presidio</span></div></div>
+  </div>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">04</span><span class="label">Prompt-level performance</span></aside>
+<div class="section-body">
+  <h2 class="reveal">Visibility is concentrated in three service areas — <span>with room to grow in cloud and cybersecurity.</span></h2>
+  <p class="section-intro reveal">Five prompts were tracked in each topic. Logicalis gets traction in managed IT, infrastructure transformation and network connectivity, while cloud infrastructure and enterprise cybersecurity remain open opportunities in this Snapshot.</p>
+  <div class="prompt-list reveal">
+    <div class="prompt-row"><h3>Managed IT Services</h3><div class="prompt-dots"><i class="prompt-dot hit"></i><i class="prompt-dot hit"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i></div><div class="prompt-note">2 of 5 prompts visible</div></div>
+    <div class="prompt-row"><h3>IT Infrastructure Transformation</h3><div class="prompt-dots"><i class="prompt-dot hit"></i><i class="prompt-dot hit"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i></div><div class="prompt-note">2 of 5 prompts visible</div></div>
+    <div class="prompt-row"><h3>Network Connectivity Solutions</h3><div class="prompt-dots"><i class="prompt-dot hit"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i></div><div class="prompt-note">1 of 5 prompts visible</div></div>
+    <div class="prompt-row"><h3>Cloud Infrastructure Solutions</h3><div class="prompt-dots"><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i></div><div class="prompt-note zero">0 of 5 prompts visible</div></div>
+    <div class="prompt-row"><h3>Enterprise Cybersecurity Services</h3><div class="prompt-dots"><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i><i class="prompt-dot"></i></div><div class="prompt-note zero">0 of 5 prompts visible</div></div>
+  </div>
+  <aside class="navy-callout reveal"><div class="eyebrow">The opportunity behind the numbers</div><h3>AI already connects Logicalis with cybersecurity and cloud. The next job is strengthening the proof behind that association.</h3><p>A full audit can show which owned content, third-party citations and technical signals could help carry that association into more recommendation-style answers.</p></aside>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">05</span><span class="label">Citation gap analysis</span></aside>
+<div class="section-body">
+  <h2 class="reveal">Where competitors are getting mentioned <span>without Logicalis.</span></h2>
+  <p class="section-intro reveal">This view is filtered to three of the top competitors in the Snapshot — <strong>CDW, Insight and Presidio.</strong> The domains below mention at least one of those competitors without also mentioning Logicalis. This helps us see which third-party sites are already part of the competitive conversation and may be worth evaluating for earned media opportunities.</p>
+  <div class="gap-filter reveal"><strong>How to read this:</strong> Retrieved % shows how often a domain appears in the tracked source set. Total citations shows how many citations came from that domain.</div>
+  <div class="citation-table reveal">
+    <div class="citation-head"><span>Domain</span><span>Site type</span><span>Retrieved %</span><span>Total citations</span></div>
+    <div class="citation-row"><span class="domain">gartner.com</span><span class="site-tag corporate">Corporate</span><span class="retrieved">9.3%</span><span class="citations">154</span></div>
+    <div class="citation-row"><span class="domain">ciopages.com</span><span class="site-tag reference">Reference</span><span class="retrieved">3.1%</span><span class="citations">42</span></div>
+    <div class="citation-row"><span class="domain">fortinet.com</span><span class="site-tag corporate">Corporate</span><span class="retrieved">5.4%</span><span class="citations">33</span></div>
+    <div class="citation-row"><span class="domain">cdw.com</span><span class="site-tag competitor">Competitor</span><span class="retrieved">2.8%</span><span class="citations">27</span></div>
+    <div class="citation-row"><span class="domain">marketsandmarkets.com</span><span class="site-tag editorial">Editorial</span><span class="retrieved">2.5%</span><span class="citations">17</span></div>
+    <div class="citation-row"><span class="domain">clutch.co</span><span class="site-tag corporate">Corporate</span><span class="retrieved">2.3%</span><span class="citations">17</span></div>
+    <div class="citation-row"><span class="domain">solutionsreview.com</span><span class="site-tag editorial">Editorial</span><span class="retrieved">3.4%</span><span class="citations">7</span></div>
+  </div>
+  <div class="citation-note reveal">Not every domain will be a fit. The full audit helps us identify which sources are influential, relevant to Logicalis and realistic opportunities for inclusion, contributed content or other earned media.</div>
+  <div class="insight reveal"><strong>What this tells us:</strong> Competitors are being mentioned across third-party sources that Logicalis is not currently appearing in. That gives us a starting point for identifying where earned media could help strengthen Logicalis’ presence in the sources AI is already using.</div>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">06</span><span class="label">Technical quick audit</span></aside>
+<div class="section-body">
+  <h2 class="reveal">The site is accessible to AI. <span>The next opportunity is making key signals easier to understand and cite.</span></h2>
+  <p class="section-intro reveal">We also took a quick look at the site to see whether anything obvious could make it harder for AI platforms to access, understand or cite the content. This isn’t a full technical crawl, but it gives us an early read on where the site is already in good shape and where a deeper review could uncover additional opportunity.</p>
+  <div class="tech-scorecard reveal">
+    <div class="tech-item"><h3>Crawler access</h3><span class="tech-status pass">PASS</span><div class="tech-result"><div class="tech-track"><div class="tech-fill pass"></div></div><div class="tech-copy">AI crawlers are not blocked.</div></div></div>
+    <div class="tech-item"><h3>Rendering</h3><span class="tech-status pass">PASS</span><div class="tech-result"><div class="tech-track"><div class="tech-fill pass"></div></div><div class="tech-copy">Sampled content is server-rendered and accessible.</div></div></div>
+    <div class="tech-item"><h3>Sitemap</h3><span class="tech-status partial">PARTIAL</span><div class="tech-result"><div class="tech-track"><div class="tech-fill partial"></div></div><div class="tech-copy">Strong hreflang; sitemap declaration, migration duplicates and housekeeping URLs are worth cleaning up.</div></div></div>
+    <div class="tech-item"><h3>Content citability</h3><span class="tech-status partial">PARTIAL</span><div class="tech-result"><div class="tech-track"><div class="tech-fill partial"></div></div><div class="tech-copy">Service content is stronger; sampled pillar content has room for more sourced, citation-ready proof.</div></div></div>
+    <div class="tech-item"><h3>Structured data</h3><span class="tech-status fail">FAIL</span><div class="tech-result"><div class="tech-track"><div class="tech-fill fail"></div></div><div class="tech-copy">No JSON-LD was found on the two sampled pages.</div></div></div>
+  </div>
+  <div class="tech-note">Status reflects this limited two-page sample and is meant to flag where deeper review is warranted.</div>
+  <div class="transition-box reveal"><h3>The site has a solid foundation. A full audit tells us which technical improvements are actually worth prioritizing.</h3><p>That deeper review connects sitewide crawl data, template patterns, structured signals and AI bot behavior back to the prompts and pages that matter most — so routine cleanup doesn’t get confused with the work most likely to improve AI visibility.</p></div>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">07</span><span class="label">Two quick wins</span></aside>
+<div class="section-body">
+  <h2 class="reveal">Two opportunities we can see <span>before the full audit.</span></h2>
+  <p class="section-intro reveal">These are directional opportunities from the AI Snapshot — not the full GEO strategy. They show the kind of work the audit can validate, prioritize and turn into a more complete plan.</p>
+  <div class="quick-win-grid reveal">
+    <article class="quick-win earned"><div class="eyebrow">Quick win 01 · Earned authority</div><h3>Get Logicalis into industry sources already mentioning competitors.</h3><p>Prioritize relevant sites from the citation-gap analysis for <strong>listicle inclusion, expert commentary, contributed articles or guest placements</strong> — especially where those sources are already being retrieved or cited in AI answers.</p></article>
+    <article class="quick-win owned"><div class="eyebrow">Quick win 02 · Owned content</div><h3>Expand priority pillar pages so they explain the offer more clearly to people and LLMs.</h3><p>Pages such as the <a href="https://www.logicalis.com/solutions-and-services/technology/cloud">Cloud pillar</a> give the topic a foundation, but there is room to add more explicit detail about <strong>what Logicalis does, where it fits, proof points, services and use cases</strong> that AI systems can understand and cite.</p></article>
+  </div>
+  <div class="quick-win-note reveal"><strong>The full audit takes us from quick wins to a complete strategy.</strong> It validates which opportunities are real, which ones matter most and where Logicalis should focus across technical, owned and earned channels.</div>
+</div>
+</section>
+
+<section class="report-section" id="audit">
+<aside class="section-index"><span class="num">08</span><span class="label">What’s Next</span></aside>
+<div class="section-body">
+  <h2 class="reveal">The AI Snapshot gives us a starting point. <span>The full audit gives us the bigger picture and the game plan.</span></h2>
+  <p class="section-intro reveal">The AI Snapshot gives us an initial look at how Logicalis compares to competitors and surfaces a few opportunities that may help improve visibility. The full audit goes much deeper — expanding the research, validating what’s driving the results and connecting those findings back to the pages, sources and technical signals behind them. That gives us the full picture we need to build the GEO strategy.</p>
+  <div class="audit-box reveal">
+    <div class="audit-col">
+      <div class="eyebrow">What the AI Snapshot gives us</div>
+      <h3>An initial view of visibility and where opportunities may exist.</h3>
+      <ul>
+        <li><b>✓</b><span>Logicalis is already part of the competitive AI set.</span></li>
+        <li><b>✓</b><span>Cloud and cybersecurity stand out as topics worth deeper review.</span></li>
+        <li><b>✓</b><span>Third-party citation gaps point to potential earned media opportunities.</span></li>
+        <li><b>✓</b><span>The technical review surfaces areas to investigate further.</span></li>
+      </ul>
+    </div>
+    <div class="audit-col">
+      <div class="eyebrow">What the full audit provides</div>
+      <h3>The research we need to understand what is driving those results and where to focus next.</h3>
+      <ul>
+        <li><b>→</b><span>Expanded prompt research and ranking</span></li>
+        <li><b>→</b><span>Validated competitors and engine-specific baselines</span></li>
+        <li><b>→</b><span>Full technical crawl and AI bot/log review where available</span></li>
+        <li><b>→</b><span>Prompt-to-page, content, entity and citation mapping</span></li>
+        <li><b>→</b><span>Prioritized opportunities across technical, owned and earned channels</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="audit-bottom reveal"><strong>The outcome:</strong> a clear GEO roadmap with prioritized opportunities across technical, owned and earned channels — plus the research behind each recommendation.</div>
+</div>
+</section>
+
+<section class="report-section">
+<aside class="section-index"><span class="num">09</span><span class="label">From Audit to GEO Strategy</span></aside>
+<div class="section-body">
+  <h2 class="reveal">The audit tells us where the opportunities are. <span>The GEO strategy lays out how to go after them.</span></h2>
+  <p class="section-intro reveal">We use what we learn in the audit — combined with what we know about how AI platforms discover, understand and cite information — to build a strategy around the opportunities most likely to improve Logicalis’ visibility. The goal is simple: give Logicalis the strongest possible chance of showing up when potential customers ask AI about the services it provides.</p>
+  <div class="strategy-bridge reveal">
+    <article class="strategy-stage"><div class="eyebrow">01 · Full GEO Audit</div><h3>Understand what’s driving the results.</h3><p>Dig deeper into visibility, competitors, content, citations and technical signals.</p></article>
+    <div class="strategy-arrow">→</div>
+    <article class="strategy-stage strategy"><div class="eyebrow">02 · GEO Strategy</div><h3>Decide where to focus.</h3><p>Use the audit findings to prioritize the technical, owned and earned opportunities most likely to improve visibility.</p></article>
+    <div class="strategy-arrow">→</div>
+    <article class="strategy-stage"><div class="eyebrow">03 · Activation</div><h3>Put the strategy to work.</h3><p>Execute the priorities, measure what changes and adjust as AI platforms and results evolve.</p></article>
+  </div>
+  <div class="strategy-callout reveal"><strong>The audit informs the strategy.</strong> It shows us where the biggest opportunities are. Our job is to turn those findings into the right priorities across technical, owned and earned channels.</div>
+</div>
+</section>
+
+</main>
+
+<section class="cta"><div class="wrap"><h2>Turn the Snapshot into a <span>GEO game plan.</span></h2><div><p>The full audit gives us the depth to understand what’s driving Logicalis’ AI visibility and build a prioritized strategy around the opportunities that matter most.</p><div class="buttons"><a class="btn" href="https://www.ideascollide.com/contact-us/">Book the full GEO audit</a><a class="btn alt" href="#top">Back to top</a></div></div></div></section>
+
+<section class="methodology" id="methodology"><div class="wrap"><h2>Report methodology</h2><div><p>This directional AI Snapshot uses 25 curated prompts across five service topics and tracks Google AI Overview, ChatGPT and Perplexity against the currently configured competitor set. It also includes a limited two-page technical review. Results are intended to identify patterns and opportunities, not to serve as a complete market benchmark.</p><p>A full engagement expands and validates the prompt universe, buyer stages, markets, competitors, site templates, source/citation sets and technical evidence before recommendations are finalized. AI outputs and source selection can change over time, so ongoing measurement is part of the GEO strategy.</p></div></div></section>
+
+<footer class="footer"><div class="wrap"><div>IDEAS COLLIDE · LOGICALIS AI SNAPSHOT</div><div>25 prompts · 3 engines · two-page technical review · September 2026</div></div></footer>
+
+<script>
+const p=document.getElementById('progress'),u=()=>{const d=document.documentElement,m=d.scrollHeight-d.clientHeight;p.style.width=(m?d.scrollTop/m*100:0)+'%'};addEventListener('scroll',u,{passive:true});u();
+if('IntersectionObserver'in window){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');o.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(e=>o.observe(e))}else document.querySelectorAll('.reveal').forEach(e=>e.classList.add('in'));
+</script>
+</body>
+</html>
