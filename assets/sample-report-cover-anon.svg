@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <rect width="850" height="1100" fill="#081938"/>
+  <path d="M0 0h850v12H0z" fill="#e7403b"/>
+  <g fill="none" stroke="#08a8d1" opacity=".28">
+    <ellipse cx="750" cy="140" rx="190" ry="70" transform="rotate(28 750 140)"/>
+    <ellipse cx="750" cy="140" rx="190" ry="70" transform="rotate(88 750 140)"/>
+    <ellipse cx="750" cy="140" rx="190" ry="70" transform="rotate(148 750 140)"/>
+  </g>
+  <circle cx="750" cy="140" r="8" fill="#e7403b"/>
+  <text x="70" y="82" fill="#fff" font-family="Arial" font-size="24" font-weight="800">IDEAS <tspan fill="#e7403b">●</tspan> COLLIDE</text>
+  <text x="70" y="250" fill="#08a8d1" font-family="Arial" font-size="17" font-weight="800" letter-spacing="3">AI VISIBILITY SNAPSHOT · SAMPLE</text>
+  <text x="70" y="330" fill="#fff" font-family="Georgia" font-size="64" font-weight="700">Sample Brand</text>
+  <text x="70" y="402" fill="#fff" font-family="Georgia" font-size="64" font-weight="700">is visible.</text>
+  <text x="70" y="474" fill="#08a8d1" font-family="Georgia" font-size="64" font-weight="700">But not yet influential.</text>
+  <text x="70" y="555" fill="#c6d2e1" font-family="Arial" font-size="23">What ChatGPT, Google AI Overviews and Perplexity</text>
+  <text x="70" y="590" fill="#c6d2e1" font-family="Arial" font-size="23">surface when buyers ask about your category.</text>
+  <line x1="70" y1="790" x2="780" y2="790" stroke="#355071"/>
+  <text x="70" y="840" fill="#8496ae" font-family="Arial" font-size="15">PREPARED FOR</text>
+  <text x="70" y="875" fill="#fff" font-family="Arial" font-size="22" font-weight="700">Sample Brand</text>
+  <text x="320" y="840" fill="#8496ae" font-family="Arial" font-size="15">ENGINES SAMPLED</text>
+  <text x="320" y="875" fill="#fff" font-family="Arial" font-size="18">Google AIO · ChatGPT · Perplexity</text>
+  <text x="70" y="1010" fill="#8496ae" font-family="Arial" font-size="15">DIRECTIONAL SNAPSHOT · FULL AUDIT RECOMMENDED</text>
+</svg>
